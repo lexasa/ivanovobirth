@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../style.css">
+        <script src='http://code.jquery.com/jquery-3.2.1.min.js'></script>
+        <title>Парки</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__logo">
+                Иваново
+            </div>
+            <div class="selection">
+                <a class="selection_link" href="../home.html" class="menu">Главная</a>
+                <a class="selection_link" href="../spec/about.html" class="menu">Подробно</a>
+            </div>
+        </header>
+        <div class="photo">
+            <img class="hol1" src="../photo/vid.png">
+        </div>
+        <div class="small_ph">
+            <img class="hold" src="../photo/vid.png">
+            <img class="hold" src="../photo/vokzal.png">
+            <img class="hold" src="../photo/pamatnik.png">
+            <img class="hold" src="../photo/pamatnik1.png">
+        </div>
+        <div class="first">
+            <div class="block_selection">
+                <a class="block_1" href="../home.html" class='menu'>Факты</a>
+                <a class="block_1" href="../spec/parks.html" class='menu'>Парки</a>
+                <a class="block_1" href="../spec/attraction.html" class='menu'>Достопримечательности</a>
+            </div>
+        </div>
+        <div class="collection">
+            <div class="info"><img class="ger" src="../photo/parkstepanova.jpg"><div class="text"><p>Парк культуры и отдыха им. В. Я. Степанова.  До революции считался участком соснового леса и принадлежал фабрикантам Гарелиным. В 1917 году включен в черту города. В 1925 году получил название «Парк культуры и отдыха им. В. Я. Степанова» в честь погибшего в 1920 году члена Совета рабочих и солдатских депутатов В. Я. Степанова (1893—1920). В 1959 году на территории парка нашли мотыгу 8-го тысячелетия до н.э., а позднее — керамику неолита.</p></div></div>
+            <div class="info"><img class="ger" src="../photo/parkharinka.jpg"><div class="text"><p>История Парк Харинка был основан 13 июня 1966 года. Наименование парка связано с его географическим расположением — парк находится в экологически чистом, живописном месте, где протекает река Харинка и является памятником охраны природы.</p></div></div>
+            <div class="info"><img class="ger" src="../photo/naberezhnaja.jpg"><div class="text"><p>В любом городе набережная реки – любимое место прогулок горожан. Иваново исключением не является. Набережная Иваново окаймляет берега реки Уводь и ограничена двумя мостами: Соковским и Театральным, соответственно проспектом Ленина и Шереметьевским проспектом.</p></div></div>
+        </div>
+        <div class="collection">
+            <div class="info"><img class="ger" src="../photo/park1905.jfif"><div class="text"><p>Парк культуры и отдыха имени Революции 1905 года. Памятник природы создан в целях сохранения искусственно созданной системы. Это самый крупный парк города. Основу парка представляет лесной массив естественного происхождения. Обширный массив соснового леса. Возраст зеленых насаждений парка от 70 до 100 лет. Является местом массового отдыха населения.занимает территорию - 213 гектар, из них: площадь лесопарка  - 177,3 гектар, площадь водной акватории реки Талка - 36 гектар.</p></div></div>
+            <div class="info"><img class="ger" src="../photo/parkhrucheva.jpg"><div class="text"><p>Парк им. Н. С. Хрущёва в Иванове располагается между улицами Парижской Коммуны и Красных зорь. Парк обустроили после Великой Отечественной войны, и он много лет был привлекательным местом для отдыха горожан.</p></div></div>
+            <div class="info"><img class="ger" src="../photo/skverlit.jpg"><div class="text"><p>Литературный сквер – памятное место в городе. Он задумывался для организации поэтических вечеров местных литераторов. Но война внесла свои коррективы. В глубине сквера установлены памятники Николаю Майорову и Алексею Лебедеву, ивановским поэта, погибшим в годы Великой Отечественной войны. Здесь же установлен памятник иваново-вознесенскому фабриканту Дмитрию Геннадьевичу Бурылину – коллекционеру, меценату, основоположнику местного музея.</p></div></div>
+        </div>
+        <script>
+        $('.hold').click(function (eve) {
+    $(".hol1").attr('src', $(eve.target).attr('src'));
+});
+        </script>
+    </body>
+</html>

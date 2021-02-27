@@ -1,0 +1,140 @@
+@font-face{
+    font-family: 'easyfo';
+    src: url('19847.otf');
+}
+
+body {
+    background-color: #7b7b7b;
+    background-repeat: no-repeat;
+}
+
+.header__logo {
+    color: #f5ead2;
+    font-family: 'easyfo';
+    font-size: 36px;
+}
+
+.header {
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.selection {
+    word-spacing: 40px;
+    font-size: 120%;
+    margin-left: auto;
+}
+
+.selection_link {
+    color: #f5ead2;
+    font-family: 'easyfo';
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.selection_link:hover {
+    color: #b12323;
+}
+
+.hol1 {
+    display: block;
+    height: auto;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small_ph {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+    margin-bottom: 3%;
+}
+
+.hold {
+    width: 25%;
+}
+
+.first {
+    display: flex;
+    margin: 2%;
+    justify-content:  center;
+    align-items: center;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+.block_selection {
+    word-spacing: 40px;
+    font-size: 125%;
+}
+
+.block_1 {
+    color: #000000;
+    font-family: 'easyfo';
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.block_1:hover {
+    color: #b12323;
+}
+
+.collection {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 21%;
+    margin-right: 21%;
+}
+
+.info {
+    margin: 2%;
+    background-color: rgb(255, 248, 237);
+    width: 29%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ger {
+    width:100%;
+    height: auto;
+}
+
+.text {
+    font-family: 'easyfo';
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.about {
+    display: block;
+    height: auto;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headel {
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 21%;
+}
+
+.tyr {
+    color:#f5ead2;
+    font-family: 'easyfo';
+    font-size: 100%;
+}
+
+.bot {
+    text-decoration: none;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src='http://code.jquery.com/jquery-3.2.1.min.js'></script>
+        <title>Главная</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__logo">
+                Иваново
+            </div>
+            <div class="selection">
+                <a class="selection_link" href="home.html" class="menu">Главная</a>
+                <a class="selection_link" href="spec/about.html" class="menu">Подробно</a>
+            </div>
+        </header>
+        <div class="photo">
+            <img class="hol1" src="photo/vid.png">
+        </div>
+        <div class="small_ph">
+            <img class="hold" src="photo/vid.png">
+            <img class="hold" src="photo/vokzal.png">
+            <img class="hold" src="photo/pamatnik.png">
+            <img class="hold" src="photo/pamatnik1.png">
+        </div>
+        <div class="first">
+            <div class="block_selection">
+                <a class="block_1" href="home.html" class='menu'>Факты</a>
+                <a class="block_1" href="spec/parks.html" class='menu'>Парки</a>
+                <a class="block_1" href="spec/attraction.html" class='menu'>Достопримечательности</a>
+            </div>
+        </div>
+        <div class="collection">
+            <div class="info"><img class="ger" src="photo/svadba.jpg"><div class="text"><p>Иваново получило название «город невест» в послевоенное время, так как многие мужчины пали на фронтах Второй мировой, а на местных текстильных предприятиях трудились очень много женщин. В процентном соотношении их было в несколько раз больше, чем представителей сильного пола.</p></div></div>
+            <div class="info"><img class="ger" src="photo/kolzo.jpg"><div class="text"><p>Самым молодым городом Золотого кольца является Иваново. Образовался он в 1871 г. путем слияния старого центра обработки льна села Иваново с индустриальным Вознесенским Посадом и расположился в междуречье двух крупных российских рек - Клязьмы и Волги.</p></div></div>
+            <div class="info"><img class="ger" src="photo/zerkalo.jfif"><div class="text"><p>В Иваново каждый год проходит международный кинофестиваль "Зеркало". В Иваново также существует большое количество мест, где организовывают выставки. Не так давно в городе была выставки картин Винсента Ван Гога</p></div></div>
+        </div>
+        <div class="collection">
+            <div class="info"><img class="ger" src="photo/fabrika.jfif"><div class="text"><p>В 1883 году насчитывалось большое количество фабрик: 1 бумагопрядильная, 10 миткале-ткацких, 30 ситцепечатных, 7 отбельных, 4 чугунно- и медно-литейных механических, 5 химических, 1 бердочное, 1 красильное, 1 котельное, 3 слесарных, 2 граверных, 1 рогожное, 1 лесопильное 1 и 20 кузниц.К торговопромысловой деятельности нельзя не причислить и виноторговлю. В 1883 г. в городе было 6 оптовых складов, 2 водочных завода, 14 трактиров и пивоваренный завод.</p></div></div>
+            <div class="info"><img class="ger" src="photo/avaria.jfif"><div class="text"><p>Достаточно много известных людей, которые родились, росли и жили в Иваново. Они известны не только в Иваново, но и по всей России. Например, Алексей Рыжов, Алексей Серов, Олег Жуков - участники группы "Дискотека Авария", Аркадий Северный - певец, музыкант, инженер, Вера Добролюбова - Народная артистка РФ, после окончания консерватории была распределена в Иваново как оперная певица. До 2007 года жила и работала в Иваново. А также, Трио Меридиан, группа "Светилен" и хор Жуковского. </p></div></div>
+            <div class="info"><img class="ger" src="photo/filarmony.jpg"><div class="text"><p>Ивановская государственная филармония -одна из старейших филармоний России, основана в 1936 году. Крупнейшая гастрольно-концертная организация области. Ежегодно только в Ивановской области проводится более 500 разножанровых концертов и филармонических мероприятий, которые посещают более 100 тысяч человек.</p></div></div>
+        </div>
+        <script>
+        $('.hold').click(function (eve) {
+    $(".hol1").attr('src', $(eve.target).attr('src'));
+});
+        </script>
+    </body>
+</html>

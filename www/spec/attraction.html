@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../style.css">
+        <script src='http://code.jquery.com/jquery-3.2.1.min.js'></script>
+        <title>Достопримечательности</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__logo">
+                Иваново
+            </div>
+            <div class="selection">
+                <a class="selection_link" href="../home.html" class="menu">Главная</a>
+                <a class="selection_link" href="../spec/about.html" class="menu">Подробно</a>
+            </div>
+        </header>
+        <div class="photo">
+            <img class="hol1" src="../photo/vid.png">
+        </div>
+        <div class="small_ph">
+            <img class="hold" src="../photo/vid.png">
+            <img class="hold" src="../photo/vokzal.png">
+            <img class="hold" src="../photo/pamatnik.png">
+            <img class="hold" src="../photo/pamatnik1.png">
+        </div>
+        <div class="first">
+            <div class="block_selection">
+                <a class="block_1" href="../home.html" class='menu'>Факты</a>
+                <a class="block_1" href="../spec/parks.html" class='menu'>Парки</a>
+                <a class="block_1" href="../spec/attraction.html" class='menu'>Достопримечательности</a>
+            </div>
+        </div>
+        <div class="collection">
+            <div class="info"><img class="ger" src="../photo/automuz.jpg"><div class="text"><p>Ярлык про «город невест» так прочно прилип к Иваново, что многим кажется, будто в нем нет ничего, кроме ткацких фабрик. Но это не так, ярчайший пример истинно мужского объекта — Музей советского автопрома, принадлежащий группе компаний «РИАТ».</p></div></div>
+            <div class="info"><img class="ger" src="../photo/cirk.jpg"><div class="text"><p>Государственный цирк города Иваново уже долгое время радует жителей и гостей города уникальной атмосферой праздника. На его арене выступают титулованные артисты с шоу высокого уровня.</p></div></div>
+            <div class="info"><img class="ger" src="../photo/ship.jpg"><div class="text"><p>Одно из самых необычных жилых зданий в Иваново — Дом-корабль, получивший свое название за схожесть с морским судном. Расположен этот памятник конструктивизма федерального значения в Октябрьском районе города, на проспекте Ленина. Уникальное здание из двух корпусов завершено в 1930 году. Архитектор — Д. Ф. Фридман.</p></div></div>
+        </div>
+        <div class="collection">
+            <div class="info"><img class="ger" src="../photo/podkova.jpg"><div class="text"><p>Жилой Дом-подкова в Иваново — детище архитектора А. И. Панова, построен в стиле конструктивизма в 1933–1934 годы и является региональным памятником архитектуры. Полукруглый фасад, который был задуман в связи с невозможностью сноса других построек того времени, придает схожесть зданию с подковой.</p></div></div>
+            <div class="info"><img class="ger" src="../photo/bird.jpg"><div class="text"><p>Дом-Птица - одно из первых школьных зданий города советского периода. Выстроена по проекту архитектора В.И.Панкова в 1928 г. в формах конструктивизма с заметным влиянием модерна для Школы им. 10-летия Октябрьской Революции. Симметричный план здания напоминает летящую птицу с раскрытыми крыльями. Фасад асимметричен за счет обсерватории, устроенной над левым крылом. На 2020 год обсерватория закрыта и разрушается.</p></div></div>
+            <div class="info"><img class="ger" src="../photo/duringer.jpg"><div class="text"><p>Спрятавшаяся на тихой улице в историческом центре Иваново усадьба Дюрингера — одна из самых необычных архитектурных достопримечательностей города. История мрачного исторического особняка началась в 1910 году, когда швейцарец А. Я. Дюрингер купил в провинциальном Иваново дом середины XIX века. Однако традиционный облик усадебного дома нового владельца не устроил, и он пригласил архитектора А. Ф. Снурилова для строительства дома в стиле модерн с характерными элементами западноевропейской архитектуры.</p></div></div>
+        </div>
+        <script>
+        $('.hold').click(function (eve) {
+    $(".hol1").attr('src', $(eve.target).attr('src'));
+});
+        </script>
+    </body>
+</html>
